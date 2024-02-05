@@ -1,0 +1,69 @@
+.homepageContainerHeadingPages {
+  display: flex;
+  gap: 17px;
+  font-size: 19px;
+  font-weight: 600;
+  border-bottom: 2px solid #000000cf;
+  padding-left: 8px;
+}
+
+.homepageContainerHeadingPage2 {
+  border-bottom: 4px solid #b33a3a;
+}
+.myflashcardP {
+  color: #b33a3a;
+  cursor: pointer;
+}
+.contentContainer {
+  width: 80%;
+
+  margin: 40px auto;
+}
+.flashcardContent {
+  text-align: center;
+  margin-top: 4rem;
+}
+.notAvailableP {
+  color: #b33a3a;
+}
+button {
+  background: #b33a3a;
+  padding: 14px 30px;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.flashcardContainer {
+  background: white;
+  width: fit-content;
+  padding: 37px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flashcardGroupName {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000cf;
+  margin: 14px auto;
+}
+.flashcardGroupDesc {
+  margin-bottom: 37px;
+}
+.flashcardGroupCardCount {
+  font-weight: 600;
+}
+.flashcardGroupViewBtn {
+  background: #b33a3a;
+  padding: 5px 38px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.flashcardContainer:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,109 @@
+.homepageContainerHeadingPages {
+  display: flex;
+  gap: 17px;
+  font-size: 19px;
+  font-weight: 600;
+  border-bottom: 2px solid #000000cf;
+  padding-left: 8px;
+}
+
+.homepageContainerHeadingPage2 {
+  border-bottom: 4px solid #b33a3a;
+}
+.myflashcardP {
+  color: #b33a3a;
+}
+.cardContainer {
+  width: 80%;
+  margin: 40px auto;
+}
+.cardHeading {
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 11px;
+}
+.cardDesc {
+  margin: 13px 41px;
+}
+.cardContent {
+  margin-top: 21px;
+}
+.cardItem1 {
+  background: white;
+  width: 221px;
+  padding: 23px;
+  border-radius: 12px;
+  height: fit-content;
+  padding-bottom: 68px;
+}
+.cardItem1Heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000cf;
+  border-bottom: 1px solid #0000002b;
+  padding-bottom: 9px;
+}
+.cardItems1Items {
+  margin-top: 17px;
+  margin-left: 11px;
+  cursor: pointer;
+  display: flex;
+  gap: 11px;
+  color: #b33a3a;
+  font-weight: 600;
+  font-size: 18px;
+}
+.cardItem2 {
+  background: white;
+  padding: 23px;
+  border-radius: 12px;
+  height: fit-content;
+  width: 37%;
+}
+.cardItems {
+  display: flex;
+  gap: 30px;
+}
+.cardPageImage {
+  width: 100%;
+  border-radius: 10px;
+  border: none !important;
+  overflow: hidden;
+  height: 480px;
+}
+.cardPageImage:hover {
+  transform: scale(1.1);
+}
+.cardItem2Image {
+  height: 351px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.cardDesc {
+  margin: 25px auto;
+  width: fit-content;
+}
+.groupDesc {
+  margin: 14px 40px;
+}
+.cardItem3Item {
+  background: white;
+  border-radius: 10px;
+  padding: 7px 47px;
+  display: flex;
+  gap: 11px;
+}
+.cardItem3Items {
+  display: grid;
+  gap: 10px !important;
+  cursor: pointer;
+}
+.cardItem3Item,
+.cardItem1,
+.cardItem2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardItem3Item:hover {
+  transform: scale(1.1);
+}
