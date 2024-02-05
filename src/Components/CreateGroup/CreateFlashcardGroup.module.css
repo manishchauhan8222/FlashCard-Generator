@@ -60,3 +60,24 @@ img {
   border-radius: 40%;
   border: 1px solid black;
 }
+.addBtn {
+  color: #0000ffab;
+  display: flex;
+  gap: 6px;
+  margin-top: 28px;
+  cursor: pointer;
+}
+.CreateFlashcardCard {
+  margin-bottom: 50px;
+}
+.deleteBtn {
+  font-size: 35px;
+  cursor: pointer;
+}
+.deleteBtn:hover {
+  transform: scale(1.1);
+}
+.labelAndDelete {
+  display: flex;
+  justify-content: space-between;
+}
